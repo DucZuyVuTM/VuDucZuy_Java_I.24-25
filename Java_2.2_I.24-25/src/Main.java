@@ -107,9 +107,9 @@ public class Main {
         String color;
         int year;
   	    
-  	    Scanner input = new Scanner(System.in);
-  	    
-  	    //----------------------------------------------
+        Scanner input = new Scanner(System.in);
+        
+        //----------------------------------------------
         System.out.println("Write the info for car 1:");
         System.out.print("Model: ");
         model = input.nextLine();
