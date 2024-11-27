@@ -100,12 +100,12 @@ public class Main {
                "4) Change year";
     }
     
-  	public static void main(String[] args) {
-  	    int choice, choice1;
-  	    String model;
-  	    String license;
-  	    String color;
-  	    int year;
+    public static void main(String[] args) {
+        int choice, choice1;
+        String model;
+        String license;
+        String color;
+        int year;
   	    
   	    Scanner input = new Scanner(System.in);
   	    
