@@ -132,127 +132,127 @@ public class Main {
         System.out.print("Color: ");
         color = input.nextLine();
           
-  	    Car car3 = new Car(model, color);
-  	    //----------------------------------------------
-  	    
-  	    System.out.println("------");
-  	    System.out.println("Car 1: \n" + car1.To_String());
-  	    System.out.println("Car 2: \n" + car2.To_String());
-  	    System.out.println("Car 3: \n" + car3.To_String());
-  	    System.out.println("------");
-  	    
-  	    System.out.println(menu1());
-  	    choice = input.nextInt(); input.nextLine();
-  	    
-  	    while (choice != 0) {
-  	        if (choice == 4) {
-  	            System.out.println("------");
-          	    System.out.println("Car 1: \n" + car1.To_String());
-          	    System.out.println("Car 2: \n" + car2.To_String());
-          	    System.out.println("Car 3: \n" + car3.To_String());
-          	    System.out.println("------");
-          	    
-          	    System.out.println(menu1());
-  	            choice = input.nextInt(); input.nextLine();
-  	            
-  	            continue;
-  	        }
-  	        
-  	        System.out.println(menu2());
-  	        choice1 = input.nextInt(); input.nextLine();
-  	        
-  	        if (choice == 1) {
-  	            if (choice1 == 1) {
-  	                System.out.print("Model: ");
+        Car car3 = new Car(model, color);
+        //----------------------------------------------
+        
+        System.out.println("------");
+        System.out.println("Car 1: \n" + car1.To_String());
+        System.out.println("Car 2: \n" + car2.To_String());
+        System.out.println("Car 3: \n" + car3.To_String());
+        System.out.println("------");
+        
+        System.out.println(menu1());
+        choice = input.nextInt(); input.nextLine();
+        
+        while (choice != 0) {
+            if (choice == 4) {
+                System.out.println("------");
+                System.out.println("Car 1: \n" + car1.To_String());
+                System.out.println("Car 2: \n" + car2.To_String());
+                System.out.println("Car 3: \n" + car3.To_String());
+                System.out.println("------");
+                
+                System.out.println(menu1());
+                choice = input.nextInt(); input.nextLine();
+                
+                continue;
+            }
+            
+            System.out.println(menu2());
+            choice1 = input.nextInt(); input.nextLine();
+            
+            if (choice == 1) {
+                if (choice1 == 1) {
+                    System.out.print("Model: ");
                     model = input.nextLine();
                     car1.setModel(model);
                     System.out.println("New model: " + car1.getModel());
-  	            }
-  	            
-  	            if (choice1 == 2) {
-  	                System.out.print("License: ");
+                }
+                
+                if (choice1 == 2) {
+                    System.out.print("License: ");
                     license = input.nextLine();
                     car1.setLicense(license);
                     System.out.println("New license: " + car1.getLicense());
-  	            }
-  	            
-  	            if (choice1 == 3) {
-  	                System.out.print("Color: ");
+                }
+                
+                if (choice1 == 3) {
+                    System.out.print("Color: ");
                     color = input.nextLine();
                     car1.setColor(color);
                     System.out.println("New color: " + car1.getColor());
-  	            }
-  	            
-  	            if (choice1 == 4) {
-  	                System.out.print("Year: ");
+                }
+                
+                if (choice1 == 4) {
+                    System.out.print("Year: ");
                     year = input.nextInt(); input.nextLine();
                     car1.setYear(year);
                     System.out.println("New year of issue: " + car1.getYear());
-  	            }
-  	        }
-  	        
-  	        if (choice == 2) {
-  	            if (choice1 == 1) {
-  	                System.out.print("Model: ");
+                }
+            }
+            
+            if (choice == 2) {
+                if (choice1 == 1) {
+                    System.out.print("Model: ");
                     model = input.nextLine();
                     car2.setModel(model);
                     System.out.println("New model: " + car2.getModel());
-  	            }
-  	            
-  	            if (choice1 == 2) {
-  	                System.out.print("License: ");
+                }
+                
+                if (choice1 == 2) {
+                    System.out.print("License: ");
                     license = input.nextLine();
                     car2.setLicense(license);
                     System.out.println("New license: " + car2.getLicense());
-  	            }
-  	            
-  	            if (choice1 == 3) {
-  	                System.out.print("Color: ");
+                }
+                
+                if (choice1 == 3) {
+                    System.out.print("Color: ");
                     color = input.nextLine();
                     car2.setColor(color);
                     System.out.println("New color: " + car2.getColor());
-  	            }
-  	            
-  	            if (choice1 == 4) {
-  	                System.out.print("Year: ");
+                }
+                
+                if (choice1 == 4) {
+                    System.out.print("Year: ");
                     year = input.nextInt(); input.nextLine();
                     car2.setYear(year);
                     System.out.println("New year of issue: " + car2.getYear());
-  	            }
-  	        }
-  	        
-  	        if (choice == 3) {
-  	            if (choice1 == 1) {
-  	                System.out.print("Model: ");
+                }
+            }
+            
+            if (choice == 3) {
+                if (choice1 == 1) {
+                    System.out.print("Model: ");
                     model = input.nextLine();
                     car3.setModel(model);
                     System.out.println("New model: " + car3.getModel());
-  	            }
-  	            
-  	            if (choice1 == 2) {
-  	                System.out.print("License: ");
+                }
+                
+                if (choice1 == 2) {
+                    System.out.print("License: ");
                     license = input.nextLine();
                     car3.setLicense(license);
                     System.out.println("New license: " + car3.getLicense());
-  	            }
-  	            
-  	            if (choice1 == 3) {
-  	                System.out.print("Color: ");
+                }
+                
+                if (choice1 == 3) {
+                    System.out.print("Color: ");
                     color = input.nextLine();
                     car3.setColor(color);
                     System.out.println("New color: " + car3.getColor());
-  	            }
-  	            
-  	            if (choice1 == 4) {
-  	                System.out.print("Year: ");
+                }
+                
+                if (choice1 == 4) {
+                    System.out.print("Year: ");
                     year = input.nextInt(); input.nextLine();
                     car3.setYear(year);
                     System.out.println("New year of issue: " + car3.getYear());
-  	            }
-  	        }
-  	        
-  	        System.out.println(menu1());
+                }
+            }
+            
+            System.out.println(menu1());
             choice = input.nextInt(); input.nextLine();
-  	    }
-  	}
+        }
+    }
 }
